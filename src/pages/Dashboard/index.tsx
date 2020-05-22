@@ -55,7 +55,7 @@ const Dashboard: React.FC = () => {
 
       <Content>
         <Schedule>
-          <h1>Horário agendados</h1>
+          <h1>Horários agendados</h1>
           <p>
             <span>Hoje</span>
             <span>Dia 06</span>
@@ -63,7 +63,7 @@ const Dashboard: React.FC = () => {
           </p>
 
           <NextAppointment>
-            <strong>Atendimento a seguir</strong>
+            <strong>Próximo atendimento</strong>
             <div>
               <img
                 src="https://avatars3.githubusercontent.com/u/21224584?s=460&u=bdfdd0636c0d4c49a72b4cfc981b5c25e80bc949&v=4"

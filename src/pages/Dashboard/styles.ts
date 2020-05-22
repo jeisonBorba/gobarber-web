@@ -38,7 +38,7 @@ export const Profile = styled.div`
 
   img {
     width: 56px;
-    height: 50px;
+    height: 56px;
     border-radius: 50%;
   }
 
@@ -116,7 +116,7 @@ export const NextAppointment = styled.div`
       content: '';
       position: absolute;
       height: 80%;
-      width: 2px;
+      width: 1px;
       left: 0;
       top: 10%;
       background: #ff9000;
