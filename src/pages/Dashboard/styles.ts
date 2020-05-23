@@ -27,6 +27,11 @@ export const HeaderContent = styled.div`
       color: #999591;
       width: 24px;
       height: 24px;
+      transition: color 0.2s;
+
+      &:hover {
+        color: ${shade(0.2, '#999591')};
+      }
     }
   }
 `;
@@ -52,8 +57,14 @@ export const Profile = styled.div`
       color: #f4ede8;
     }
 
-    strong {
+    a {
+      text-decoration: none;
       color: #ff9000;
+      transition: color 0.2s;
+
+      &:hover {
+        color: ${shade(0.2, '#ff9000')};
+      }
     }
   }
 `;
