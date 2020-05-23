@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTransition } from 'react-spring';
 
-import { opacify } from 'polished';
 import { ToastMessage } from '../../hooks/ToastContext';
 
 import Toast from './Toast';

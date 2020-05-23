@@ -13,6 +13,8 @@ export const Container = styled.div`
       width: 100%;
       max-width: 1120px;
       margin: 0 auto;
+      padding: 20px;
+      padding-left: 0;
 
       svg {
         color: #999591;
@@ -58,7 +60,7 @@ export const Content = styled.div`
       transition: color 0.2s;
 
       &:hover {
-        color: ${shade(0.2, '#F4EdE8')};
+        color: ${shade(0.3, '#F4EdE8')};
       }
     }
   }
@@ -84,7 +86,7 @@ export const AvatarInput = styled.div`
     border: 0;
     bottom: 0;
     right: 0;
-    background: ${shade(0.2, '#ff9000')};
+    cursor: pointer;
     transition: background-color 0.2s;
 
     display: flex;
@@ -102,7 +104,7 @@ export const AvatarInput = styled.div`
     }
 
     &:hover {
-      cursor: pointer;
+      background: ${shade(0.2, '#ff9000')};
     }
   }
 `;

@@ -22,6 +22,8 @@ export const HeaderContent = styled.div`
     margin-left: auto;
     background: transparent;
     border: 0;
+    padding: 20px;
+    padding-right: 0;
 
     svg {
       color: #999591;
@@ -30,7 +32,7 @@ export const HeaderContent = styled.div`
       transition: color 0.2s;
 
       &:hover {
-        color: ${shade(0.2, '#999591')};
+        color: ${shade(0.3, '#999591')};
       }
     }
   }
