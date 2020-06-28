@@ -33,6 +33,14 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/pages/**/*.tsx",
+      "src/components/**/*.tsx",
+      "src/hooks/*t.sx",
+      "!src/hooks/index.tsx"
+    ]
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
